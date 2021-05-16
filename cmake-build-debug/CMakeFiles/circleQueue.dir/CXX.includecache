@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/dcqueue.h
+
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/main.cpp
+iostream
+-
+dcqueue.h
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/dcqueue.h
+queue
+-
+
