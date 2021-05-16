@@ -23,24 +23,18 @@ void test2(DCQueue<int> q) {
 int main() {
     clock_t startTime, endTime;
     startTime = clock();//计时开始
-//    std::queue<long> q;
-//    for(long i=0;i<10000000;i++){
-//        q.push(i);
-//    }
-//    for(long i=0;i<q.size();i++){
-//        std::cout<<q.front()<<std::endl;
-//        q.push(q.front());
-//        q.pop();
-//    }
     DCQueue<long> qq;
-    for (long i = 0; i < 10000000; i++) {
+    for (long i = 0; i < 5; i++) {
         qq.pushAsPrevious(i);
     }
+    qq.remove(4);
+    qq.remove(3);
+//    qq.remove(2);
+    qq.remove(1);
+    qq.remove(0);
     for (long i = 0; i < qq.getSize(); i++) {
         std::cout << qq.getThisData() << std::endl;
         qq.moveToNext();
-//        qq.pushAsPrevious(qq.getSize());
-//        qq.popToNext();
     }
     endTime = clock();//计时结束
     std::cout << "The run time is: " << (double) (endTime - startTime) / CLOCKS_PER_SEC << "s" << std::endl;

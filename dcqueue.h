@@ -4,6 +4,7 @@
 
 #ifndef CIRCLEQUEUE_DCQUEUE_H
 #define CIRCLEQUEUE_DCQUEUE_H
+
 template<class T>
 class Link {
     Link *next{}, *previous{};
@@ -77,7 +78,7 @@ public:
     }
 
     void clear() {
-        while(this->size){
+        while (this->size) {
             this->popToNext();
         }
     }
@@ -116,8 +117,20 @@ public:
         this->head = this->head->getPrevious();
     }
 
-    int getSize(){
+    int getSize() {
         return this->size;
     }
+
+    bool remove(T data) {
+        for (int i = 0; i < this->size; i++) {
+            if (this->head->getData() == data) {
+                this->popToNext();
+                return true;
+            }
+            this->moveToNext();
+        }
+        return false;
+    }
 };
+
 #endif //CIRCLEQUEUE_DCQUEUE_H
