@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/dcqueue.h
-
 /Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/main.cpp
 iostream
 -
-dcqueue.h
-/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/dcqueue.h
-queue
+cmath
 -
+qarray.h
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/qarray.h
+
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/qarray.h
+iostream
+/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/iostream
 

@@ -86,6 +86,9 @@
 		<Unit filename="/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/main.cpp">
 			<Option target="circleQueue"/>
 		</Unit>
+		<Unit filename="/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/qarray.h">
+			<Option target="circleQueue"/>
+		</Unit>
 		<Unit filename="/Users/sunwenli/Desktop/Code/CLionProjects/circleQueue/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

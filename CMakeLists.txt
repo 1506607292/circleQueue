@@ -3,4 +3,4 @@ project(circleQueue)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(circleQueue main.cpp dcqueue.h)
+add_executable(circleQueue main.cpp dcqueue.h qarray.h)
